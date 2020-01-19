@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %} Home {% endblock %}
+
+{% block body %}
+
+    <h1>Home page</h1>
+
+    {% for articles in article %}
+
+        <h3>{{articles.title}}</h3>
+        <h4>{{articles.ShortenText}}</h4>
+        <h5>{{articles.date}}</h5>
+
+    {% endfor %}
+
+{% endblock %}
