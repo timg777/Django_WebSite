@@ -6,7 +6,7 @@
 
  Connent to your DataBase in Django/TestPro/settings.py
  
- Just change my example data to your data in line 77
+ Just change my example data to your data in line 77 (Django/TestPro/settings.py)
 
 # How to use
 
