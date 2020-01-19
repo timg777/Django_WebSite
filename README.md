@@ -23,6 +23,10 @@ If you add new objects or functions, you must to migrate them like that:
 
 	python3 manage.py makemigrations
 	python3 manage.py migrate
+	
+If you want to stop server, just hold:
+
+	CTRL + C
 
 Thanks for using!
 
